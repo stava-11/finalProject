@@ -1,0 +1,194 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 60rem) {
+
+.pageHeader {
+    grid-template-columns: 15% 40% 45%;
+}
+
+header .weather {
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr 1fr;
+    grid-template-rows: repeat(5, auto);
+    justify-self: end;
+    margin: .5rem 1rem;
+    align-self: center;
+    border: 2px solid #063852;
+    box-shadow: 0 0 5px 0 #E6DF44;
+    width: 100%;
+}
+
+.weather .ifWeatherTitle {
+    margin: 0;
+    padding: .5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #063852;
+    color: white;
+    width: 100%;
+    height: 100%;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+
+.weather div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+
+.weather p {
+    margin: 0;
+    padding: .5rem;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.weather div img {
+    padding: 0;
+    margin: auto auto;
+    max-height: 100%;
+    width: auto;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.forecast {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    height: 100%;
+}
+
+.summaryLabel {
+    margin: auto 0;
+    padding: 8px 4px 8px 8px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: right;
+}
+
+.summaryLabel li {
+    padding: 2px 0;
+}
+
+.summaryData {
+    margin: auto 0;
+    padding: 8px 8px 8px 4px;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.summaryData li {
+    padding: 2px 0;
+}
+
+.actionCall a, .actionCall a:hover {
+    text-decoration: none;
+    color: black;
+    border: 3px solid rgba(240, 129, 15, 1);
+    background-color: #E6DF44;
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem 1rem;
+}
+
+.actionCall a:hover {
+    color: white;
+    border: 3px solid black;
+    background-color: rgba(240, 129, 15, 1);
+    font-weight: bolder;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0 1rem 0 0;
+    padding: .5rem;
+    font-size: .9rem;;
+}
+
+nav ul li a {
+    padding: .8rem 1rem;
+}
+
+.hero-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.hero-home picture {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.hero-home .actionCall {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 2rem;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgba(240, 129, 15, .9);
+    border: 5px solid rgba(240, 129, 15, 1);
+    padding: 1rem;
+}
+
+.hero-home .actionCall h2 {
+    margin: 0;
+}
+
+.hero-home .actionCall button {
+    padding: 1rem;
+    background-color: #E6DF44;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+main .cards .actionCallSmall {
+    display: none;
+}
+
+main .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .cards article:nth-child(4){
+    grid-column: 3/4;
+    grid-row: 1/2;
+} 
+
+main .cards article:nth-child(5){
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+main .cards article:nth-child(6){
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.join {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.join .form {
+    grid-column: 1/2;
+}
+
+.join .benefits {
+    grid-row: 2/3;
+}
+
+.cardsDir {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+}

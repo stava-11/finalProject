@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Idaho Falls Chamber of Commerce contact information as well as a list of the board of directors">
+    <meta name="author" content="John Stavast">
+    <title>Contact Us</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link rel="shortcut icon" href="favIcon.ico">
+</head>
+<body>
+    <header>
+        <div class="pageHeader">
+            <img src="images/logo.png" alt="Idaho Fall Chamber of Commerce Logo">
+            <div class="title">
+                <h1>Idaho Falls</h1>
+                <h1>Chamber of Commerce</h1>
+            </div>
+            <button onclick="toggleMenu()">&#9776;</button>
+        </div>
+    </header>
+    <nav>
+        <ul id="menuOptions" class="hide">
+            <li><a href="./">Home</a></li>
+            <li><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>  
+        </ul>
+    </nav>
+    <main class="contact">
+        <section>
+            <h2>Contact Information</h2>
+            <div>
+                <ul>
+                    <li><strong>Address</strong></li>
+                    <li>365 River Parkway</li>
+                    <li>Idaho Falls, ID 83402</li>
+                </ul>
+                <ul>
+                    <li><strong>Phone</strong></li>
+                    <li>Phone: (208) 523-1010</li>
+                    <li>Fax: (208) 523-2255</li>
+                </ul>
+                <ul>
+                    <li><strong>Hours</strong></li>
+                    <li>Monday – Friday: 9:00 am – 5:00 pm</li>
+                    <li>Saturday: Closed</li>
+                    <li>Sunday: Closed</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Send Message</h2>
+            <form method="get" action="thanks.html">
+                    <label>Name <br><input type="text" pattern="[A-Za-z]{2,}" required></label><br>
+                    <label>Cell Phone <br><input type="tel" name="phone" placeholder="1235551234"></label><br>
+                    <label>Email <br><input type="email" name="email" placeholder="emailAddress@email.com" required></label><br>
+                    <label for="comment">Comments <br>
+                    <textarea id="comment" name="comment" rows="4" cols="30" required> </textarea>
+                    </label><br> 
+                    <input type="submit" value="Send Message" class="submitCmt">
+            </form>
+        </section>
+        <section>
+            <h2>Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.3715659787!2d-112.0454975!3d43.4945837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5354595a8b96a349%3A0x740c10a5a5c7438e!2s365%20River%20Pkwy%2C%20Idaho%20Falls%2C%20ID%2083402!5e0!3m2!1sen!2sus!4v1617843633082!5m2!1sen!2sus" width="500" height="460" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        <section>
+            <h2>Board of Directors</h2>
+            <ul class="board">
+                <li><strong>Board Chair: </strong></li>
+                <li>Sara Prentice</li>
+                <li><strong>Board Chair Elect: </strong></li>
+                <li>Chris Sheetz</li>
+                <li><strong>Secretary: </strong></li>
+                <li>Tony Lima</li>
+                <li><strong>Immediate Past Chair: </strong></li>
+                <li>Ray Gordon</li>
+                <li><strong>Vice Chair of Membership: </strong></li>
+                <li>Chris Sheetz</li>
+                <li><strong>Vice Chair of Programs & Events: </strong></li>
+                <li>Michael Walker</li>
+                <li><strong>Treasurer: </strong></li>
+                <li>Staci Matheson</li>
+                <li><strong>Vice Chair of Advocacy: </strong></li>
+                <li>Robert Couch</li>
+                <li><strong>Vice Chair of Communication: </strong></li>
+                <li>Adam Frugoli</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="pageFooter">
+            <p>
+                &#169; <span id="year"></span> | Idaho Falls Chamber of Commerce |  <a href="contact.html">Contact</a> | 208-266-3723
+            </p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebookSmall.png" alt="Facebook Icon"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitterSmall.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagramSmall.png" alt="Instagram Icon"></a>
+                <p id="currentDate"></p>
+            </div>
+        </div>
+    </footer>
+    <script src='js/navbar.js'></script>
+    <script src='js/footer.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>WebFont.load({ google: { families: [ "Inter" ]}}); </script>
+</body>
+</html>

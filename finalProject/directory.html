@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Idaho Falls Chamber of Commerce local business directory">
+    <meta name="author" content="John Stavast">
+    <title>Business Directory</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link rel="shortcut icon" href="favIcon.ico">
+</head>
+<body>
+    <header>
+        <div class="pageHeader">
+            <img src="images/logo.png" alt="Idaho Fall Chamber of Commerce Logo">
+            <div class="title">
+                <h1>Idaho Falls</h1>
+                <h1>Chamber of Commerce</h1>
+            </div>
+            <button onclick="toggleMenu()">&#9776;</button>
+        </div>
+    </header>
+    <nav>
+        <ul id="menuOptions" class="hide">
+            <li><a href="./">Home</a></li>
+            <li><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>  
+        </ul>
+    </nav>
+    <main>
+        <div class="viewIcons">
+            <h2>Business Directory</h2>
+            <button onclick="toggleGrid()">&#9638;</button>
+            <button onclick="toggleList()">&#9776;</button>
+        </div>
+        <div class="cardsDir" id="cardsDir"></div>
+    </main>
+    <footer>
+        <div class="pageFooter">
+            <p>
+                &#169; <span id="year"></span> | Idaho Falls Chamber of Commerce |  <a href="contact.html">Contact</a> | 208-266-3723
+            </p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebookSmall.png" alt="Facebook Icon"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitterSmall.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagramSmall.png" alt="Instagram Icon"></a>
+                <p id="currentDate"></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/directory.js"></script>
+    <script src='js/navbar.js'></script>
+    <script src='js/footer.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>WebFont.load({ google: { families: [ "Inter" ]}}); </script>
+</body>
+</html>

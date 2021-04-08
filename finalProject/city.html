@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Idaho Falls is a wonderful city that has almost every outdoor activity within 2 hour drive.">
+    <meta name="author" content="John Stavast">
+    <title>Idaho Falls</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link rel="shortcut icon" href="favIcon.ico">
+</head>
+<body>
+    <header>
+        <div class="pageHeader">
+            <img src="images/logo.png" alt="Idaho Fall Chamber of Commerce Logo">
+            <div class="title">
+                <h1>Idaho Falls</h1>
+                <h1>Chamber of Commerce</h1>
+            </div>
+            <button onclick="toggleMenu()">&#9776;</button>
+        </div>
+    </header>
+    <nav>
+        <ul id="menuOptions" class="hide">
+            <li><a href="./">Home</a></li>
+            <li class="active"><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>  
+        </ul>
+    </nav>
+    <main class="city">
+        <section class="info">
+            <h2>
+                History
+            </h2>
+            <p>Idaho Falls was originally settled by ranchers, but in 1864 the settlement began to grow because of Harry Rickets business mentality. He created a ferry srevice that crossed the Snake river. By 1865 the settlement had the makings of a small town and were known as Taylor's Crossing and then became known as Eagle Rock by 1866. This location helped westward migration on the Montana Trail. Eventually a railway was built through the narrowing of the river at Taylor's Crossing. The town really started to grow when the railway came through because of a surge of homesteading the local area. The railroad facilities were mostly moved to Pocatello in 1887 due to a worker's strike and Eagle Rock. The name was changed to Idaho Falls instead of Eagle Rock to help calm the minds of potential farmers coming to the area.</p>
+            <div class="caption">
+                <img src="images/taylorsBridge.jpg" alt="Taylors Bridge">
+                <p>Taylors Bridge in 1870</p>
+            </div>
+            <div class="caption">
+                <img src="images/railRoad.jpg" alt="Railroad Brdige">
+                <p>Utah & Northern Bridge 1880</p>
+            </div>
+        </section>
+        <section class="info">
+            <h2>
+                2010 Demographics
+            </h2>
+            <ul>
+                <li><strong>Residents:</strong> 56,813</li>
+                <li><strong>Households:</strong> 21,203</li>
+                <li><strong>Families:</strong> 14,510</li>
+                <li><strong>Population Density:</strong> 2,542.0 per square mile</li>
+                <li><strong>Median Age:</strong> 32.2</li>
+            </ul>
+            <img src="images/idaho-falls_falls.jpg" alt="Idaho Falls Welcome Sign" class="fullImage">
+        </section>
+        <section class="info">
+            <h2>
+                Upcoming Events
+            </h2>
+            <ul>
+                <li>April 8: Ribbon Cutting @ 1st Choice Urgent Care</li>
+                <li>April 15: Business After Hours</li>
+                <li>May 14: Golf Tournamnet: Scramble for Commerce 2021</li>
+            </ul>
+            <img src="images/golf.jpg" alt="Golf in Idaho Falls" class="fullImage">
+        </section>
+    </main>
+    <footer>
+        <div class="pageFooter">
+            <p>
+                &#169; <span id="year"></span> | Idaho Falls Chamber of Commerce |  <a href="contact.html">Contact</a> | 208-266-3723
+            </p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebookSmall.png" alt="Facebook Icon"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitterSmall.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagramSmall.png" alt="Instagram Icon"></a>
+                <p id="currentDate"></p>
+            </div>
+        </div>
+    </footer>
+    <script src='js/navbar.js'></script>
+    <script src='js/footer.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>WebFont.load({ google: { families: [ "Inter" ]}}); </script>
+</body>
+</html>

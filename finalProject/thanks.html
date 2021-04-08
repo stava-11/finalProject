@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for joining the Idaho Falls Chamber of Commerce">
+    <meta name="author" content="John Stavast">
+    <title>Thanks</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link rel="shortcut icon" href="favIcon.ico">
+</head>
+<body>
+    <header>
+        <div class="pageHeader">
+            <img src="images/logo.png" alt="Idaho Fall Chamber of Commerce Logo">
+            <div class="title">
+                <h1>Idaho Falls</h1>
+                <h1>Chamber of Commerce</h1>
+            </div>
+            <button onclick="toggleMenu()">&#9776;</button>
+        </div>
+    </header>
+    <nav>
+        <ul id="menuOptions" class="hide">
+            <li><a href="./">Home</a></li>
+            <li><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>  
+        </ul>
+    </nav>
+    <main class="thanks">
+        <h2>Welcome New Member</h2>
+        <p>Thanks for signing! We look forward to getting to know you and collaborating with you.</p>
+        <p>Send us an email at ifcoc@ifcoc.com to get your coupon book for local businesses.</p>
+        <p>Please provide the name and email used to sign up and we will get back to you within 2 business days</p>
+    </main>
+    <footer>
+        <div class="pageFooter">
+                <p>
+                    &#169; <span id="year"></span> | Idaho Falls Chamber of Commerce |  <a href="contact.html">Contact</a> | 208-266-3723
+                </p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebookSmall.png" alt="Facebook Icon"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitterSmall.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagramSmall.png" alt="Instagram Icon"></a>
+                <p id="currentDate"></p>
+            </div>
+        </div>
+    </footer>
+    <script src='js/navbar.js'></script>
+    <script src='js/footer.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>WebFont.load({ google: { families: [ "Inter" ]}}); </script>
+</body>
+</html>

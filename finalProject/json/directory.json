@@ -1,0 +1,83 @@
+
+  [
+    {
+        "name": "Phenix Construction LLC",
+        "address": "3655 Professional Way",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-524-6488",
+        "logoUrl": "https://www.phenixid.com/uploads/1/0/5/0/105015573/published/thumbnail-img-0340.jpg?1608585843",
+        "websiteLink": "https://www.phenixid.com/"
+    },
+    {
+        "name": "Resin Architecture",
+        "address": "305 1st Street",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83401",
+        "phone": "208-757-5700",
+        "logoUrl": "https://static.wixstatic.com/media/ed241e_11fbff5a51764a1383dd0322adaac99c~mv2.png/v1/fill/w_170,h_70,al_c,q_85,usm_0.66_1.00_0.01/ed241e_11fbff5a51764a1383dd0322adaac99c~mv2.webp",
+        "websiteLink": "https://www.resinarchitecture.com/"
+    },
+    {
+        "name": "Raymond James Financial Services, Inc.",
+        "address": "450 B Street",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-523-7900",
+        "logoUrl": "https://www.raymondjames.com/-/media/rj/advisor-sites/global/corporate-logos/raymondjames.png?h=20&w=224&la=en&hash=59621305A080524BB1590694D038EA2A",
+        "websiteLink": "https://www.raymondjames.com/idaho"
+    },
+    {
+        "name": "Cooper Norman",
+        "address": "1000 Riverwalk Dr Ste 100",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-523-0862",
+        "logoUrl": "https://www.coopernorman.com/wp-content/uploads/2020/06/CN_logo_fordarkbackground.png",
+        "websiteLink": "https://www.coopernorman.com/"
+    },
+    {
+        "name": "Broadway Veterinary Clinic",
+        "address": "2340 W. Broadway",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-522-2557",
+        "logoUrl": "https://www.broadwayvetclinicid.com/storage/app/media/logo_new.png",
+        "websiteLink": "https://www.broadwayvetclinicid.com/"
+    },
+    {
+        "name": "Snake River Animal Shelter",
+        "address": "3000 Lindsay Blvd.",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-523-4219",
+        "logoUrl": "https://www.snakeriveranimalshelter.org/wp-content/uploads/sras-logo-icon@2x.png",
+        "websiteLink": "https://www.snakeriveranimalshelter.org/"
+    },
+    {
+        "name": "Lithia Ford of Idaho Falls",
+        "address": "980 W. Broadway",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-525-8500",
+        "logoUrl": "https://www.lithiafordidahofalls.com/static/v8/global/images/franchise-logos/auto/f/ford/white/117x80.png?r=1617637359000",
+        "websiteLink": "https://www.lithiafordidahofalls.com/"
+    },
+    {
+        "name": "Snow Eagle Brewing & Grill",
+        "address": "455 River Parkway",
+        "city": "Idaho Falls",
+        "state": "ID",
+        "zip": "83402",
+        "phone": "208-523-4219",
+        "logoUrl": "https://snoweaglebrewing.com//sites/snoweaglebrewing.com/themes/snoweagle/logo.png",
+        "websiteLink": "http://snoweaglebrewing.com/"
+    }
+]

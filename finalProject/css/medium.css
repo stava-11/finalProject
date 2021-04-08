@@ -1,0 +1,80 @@
+/* 45rem is also 640px when basefont is 16px */
+@media only screen and (min-width: 48rem) {
+
+header div h1 {
+    font-size: 2rem;
+}
+
+nav ul.hide {
+    display: block;
+}
+
+nav ul{
+    display:flex;
+    margin: 0 auto;
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+nav ul li a{
+    border: none;
+    padding: .8rem 1rem;
+}
+
+.pageHeader button {
+    display: none;
+}
+
+main .cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 1rem;
+}
+
+main .cards article:nth-child(4){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}    
+
+main .cards article:nth-child(6){
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+main .cards article:nth-child(5){
+    grid-column: 1/2;
+    grid-row: 3/5;
+}
+
+.city {
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.city section.info{
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.city section.info h2{
+    grid-column: 1/4;
+}
+
+.city section.info ul li{
+    padding: .5rem 0;
+}
+
+.city section.info div{
+    grid-row: 2/3;
+}
+
+.fullImage {
+    grid-row: 2/3;
+    grid-column: 2/4;
+}
+
+.cardsDir {
+    grid-template-columns: 1fr 1fr;
+}
+
+}

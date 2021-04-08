@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Idaho Falls Chamber of Commerce is here to help local businesses thrive and to help develop the local economy.">
+    <meta name="author" content="John Stavast">
+    <title>Idaho Falls Chamber of Commerce</title>
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <link rel="shortcut icon" href="favIcon.ico">
+</head>
+<body>
+    <header>
+        <div class="pageHeader">
+            <img src="images/logo.png" alt="Idaho Fall Chamber of Commerce Logo">
+            <div class="title">
+                <h1>Idaho Falls</h1>
+                <h1>Chamber of Commerce</h1>
+            </div>
+            <div class="weather">
+                <p class="ifWeatherTitle">Idaho Falls Weather</p>
+                <div>
+                    <p>Currently</p>
+                    <img src="" alt="" id="icon">
+                </div>
+                <table class="forecast">
+                    <tr id="forecastDay">
+                        <th id="day1">
+                        </th>
+                        <th id="day2">
+                        </th>
+                        <th id="day3">
+                        </th>
+                    </tr>
+                    <tr id="forecastDetails">
+                        <td>
+                            <p><span id="dayTemp1"></span>&#176;</p>
+                        </td>
+                        <td> 
+                            <p><span id="dayTemp2"></span>&#176;</p>
+                        </td>
+                        <td>
+                            <p><span id="dayTemp3"></span>&#176;</p>
+                        </td>
+                    </tr>
+                </table>
+                <ul class="summaryLabel">
+                    <li>Temperature:</li>
+                    <li>Humidity:</li>
+                    <li>Wind Chill:</li>
+                    <li>Wind Speed:</li>
+                </ul>
+                <ul class="summaryData">
+                    <li><span id="temp"></span>&#176;</li>
+                    <li><span id="humidity"></span>%</li>
+                    <li><span id="windChill"></span></li>
+                    <li><span id="wind"></span> mph</li>
+                </ul>
+            </div>
+            <button onclick="toggleMenu()">&#9776;</button>
+        </div>
+    </header>
+    <nav>
+        <ul id="menuOptions" class="hide">
+            <li class="active"><a href="./">Home</a></li>
+            <li><a href="city.html">Idaho Falls</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li>  
+        </ul>
+    </nav>
+    <main>
+        <section class="hero-home">
+            <picture>
+                <source srcset="images/idahoFallsSmall.jpg" media="(max-width: 450px)">
+                <source srcset="images/idahoFallsMedium.jpg" media="(min-width: 451px) and (max-width: 650px)">
+                <source srcset="images/idahoFallsLarge.jpg" media="(min-width: 651px)">
+                <img src="images/idahoFallsSmall.jpg" alt="Idaho Falls">
+            </picture>
+            <div class="actionCall">
+                <h2>Join Today</h2>
+                <p>Get a $200 value coupon book to local businesses when you sign up!</p>
+                <a href="join.html">Join Now!</a>
+            </div>
+        </section>
+        <section class="cards">
+            <div class="actionCallSmall">
+                <h2>Join Today</h2>
+                <p>Get a $200 value coupon book to local businesses when you sign up!</p>
+                <a href="join.html"><div class="joinNow">Join Now</div></a>
+            </div>
+            <article>
+                <h2><a href="https://www.beeskneespub.com/" target="_blank">Bees Knees Restaurant</a></h2>
+                <img src="images/beesKnees.jpg" alt="Bees Knees Restaurant">
+                <p>This restaurnant is fantastic! It was started by two sisters who combined thier favorite things in life which are food, people, parties and Eastern Idaho. They serve salads, sandwhiches, appetizers, burgers, entrees, pasta, pizza and of course dessert!Come enjoy a night out at Bees Knees and have your taste buds delighted. This company caters as well for your favorite events!</p>
+                
+            </article>
+            <article>
+                <h2><a href="https://www.milb.com/idaho-falls" target="_blank">Idaho Falls Chuckars</a></h2>
+                <img src="images/chuckars.jpg" alt="IF Chuckars Baseball">
+                <p>Melaleuca Field is the stomping grounds for our local minor league baseball team. This is a great night out with the family or your sweetheart. Come enjoy the atmosphere to help recover from your daily routine. Did you know that Billy Martin, Joe Maddon, Jose Canseco, Mike Moustakas, Eric Hosmer and Billy Butler are all alumni to the Idaho Falls team? Come learn more and support our local minor league team, you may be cheering on one of the future greats!</p>
+            </article>
+            <article>
+                <h2><a href="http://www.fallsplumbingsupply.com/" target="_blank">Falls Plumbing Supply</a></h2>
+                <img src="images/fallsPlumbing.jpg" alt="Falls Plumbing">
+                <p>If you are a DIYer or an seasoned plumber this company is there to help. Falls Plumbing Supply has been a locally owned business for over 36 years. They believe in providing the best products at the most affordable price. The staff here are all very knowledgeable for everything plumbing and will go out of their way to help you be successful in your current and future projects!</p>
+            </article>
+            <article>
+                <h2>Purpose & Goals</h2>
+                <p>The first purpose of the Idaho Falls Chamber of Commerce is to advocate for businesses in the local community to help business grow and have our economy prosper. Second is to help educate and develop local leaders and businesses through seminars and workshops. The third purpose is to provide opportunities for business people to interact with one another and network. The last purpose is to help market Idaho Falls to tourists and people thinking about moving to this area. This chamber was founded in 1904 and has grown to over 600 member businesses and over 27,000 member business employees! The numbers show that we are doing all we can to help our local economy. Our current goal is continue this growth and help keep our local economy one that provides jobs and success for our residents!</p>
+            </article>
+            <article>
+                <h2>Upcoming Events</h2>
+                <ul>
+                    <li>April 8: Ribbon Cutting @ 1st Choice Urgent Care</li>
+                    <li>April 15: Business After Hours</li>
+                    <li>May 14: Golf Tournamnet: Scramble for Commerce 2021</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="pageFooter">
+            <p>
+                &#169; <span id="year"></span> | Idaho Falls Chamber of Commerce |  <a href="contact.html">Contact</a> | 208-266-3723
+            </p>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebookSmall.png" alt="Facebook Icon"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitterSmall.png" alt="Twitter Icon"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagramSmall.png" alt="Instagram Icon"></a>
+                <p id="currentDate"></p>
+            </div>
+        </div>
+    </footer>
+    <script src='js/weatherApi.js'></script>
+    <script src='js/threeDayForecast.js'></script>
+    <script src='js/navbar.js'></script>
+    <script src='js/footer.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({ google: { families: [ "Inter" ]}}); </script>
+</body>
+</html>
